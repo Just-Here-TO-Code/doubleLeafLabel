@@ -46,9 +46,9 @@ class _SplashscreenState extends State<Splashscreen> {
             ),
             const SizedBox(height: 6),
             const Text(
-              "Smart Plant Disease Detection",
+              "Smart Medicinal Plant Disease Detection",
               style: TextStyle(
-                fontSize: 16,
+                fontSize: 14,
                 fontWeight: FontWeight.w400,
                 color: Colors.black54,
               ),

@@ -15,7 +15,7 @@ Widget build(BuildContext context) {
   final diseaseConfidence = (resultData["confidence"]?["health_label"] ?? 0.0).toString();
 
   final description =
-      "This leaf has been identified as **$leafType**.\n"
+      "This medicinal leaf has been identified as **$leafType**.\n"
       "Current observed condition: **$disease**.\n\n"
       "Below are recommended care guidelines based on the detected condition.";
 
@@ -89,14 +89,14 @@ Widget build(BuildContext context) {
               children: [
                 _header(title),
                 const SizedBox(height: 30),
-                _glassCard(Icons.local_florist, "Plant & Disease", description, Colors.greenAccent.shade400),
+                _glassCard(Icons.local_florist, "Medicinal Plant & Disease", description, Colors.greenAccent.shade400),
                 const SizedBox(height: 20),
                 _glassCard(Icons.shield, "Prevention Tips", prevent, Colors.lightGreen.shade400),
                 const SizedBox(height: 20),
                 _glassCard(Icons.medication, "Suggested Supplement", supplementName, Colors.tealAccent.shade400),
                 const SizedBox(height: 20),
                 _glassCard(Icons.analytics, "Confidence",
-                    "Plant Prediction Confidence: $leafConfidence\nDisease Prediction Confidence: $diseaseConfidence",
+                    "Medicinal Plant Prediction Confidence: $leafConfidence\nDisease Prediction Confidence: $diseaseConfidence",
                     Colors.green.shade300),
               ],
             ),
