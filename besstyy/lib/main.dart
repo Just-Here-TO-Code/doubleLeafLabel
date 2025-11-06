@@ -1,4 +1,6 @@
+
 import 'package:flutter/material.dart';
+import 'package:leafguard_ai/splashscreen.dart';
 import 'landingpage.dart';
 
 void main() {
@@ -11,7 +13,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LandingPage(),
+      home: Splashscreen(),
     );
   }
 }

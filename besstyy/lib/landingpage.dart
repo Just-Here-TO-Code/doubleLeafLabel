@@ -1,8 +1,9 @@
 import 'dart:io';
 import 'dart:ui';
-import 'package:besstyy/resultpage.dart';
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:leafguard_ai/resultpage.dart';
 import 'package:lottie/lottie.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -68,7 +69,7 @@ class _LandingPageState extends State<LandingPage> {
                     height: 200,
                   ),
                   Text(
-                    "Medicinal Plant AI",
+                    "LeafGuard AI",
                     style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.w700,
